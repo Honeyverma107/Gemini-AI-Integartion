@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Gemini History</title>
+</head>
+<body>
+    <h1>History</h1>
+    <ul>
+        <li th:each="q : ${queries}">
+            <b th:text="${q.query}"></b>: <span th:text="${q.response}"></span>
+        </li>
+    </ul>
+</body>
+</html>

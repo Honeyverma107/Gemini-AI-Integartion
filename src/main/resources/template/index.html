@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Gemini AI</title>
+</head>
+<body>
+    <h1>Ask Gemini</h1>
+    <form th:action="@{/ask}" method="post">
+        <input type="text" name="query" placeholder="Enter your question" />
+        <button type="submit">Ask</button>
+    </form>
+
+    <p th:text="${response}"></p>
+</body>
+</html>
