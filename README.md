@@ -1,1 +1,1 @@
-This is a project module , which i build during My internship period...It is a AI integrated gemini where you can prompt anything and you will get the response using gemini api key.The main focus was to integrate the gemini api key safely and securely in the backend 
+ 
